@@ -1,0 +1,49 @@
+body {
+    background-image: url(pics/retrowave-background.jpg);
+}
+
+h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+}
+.sections{
+    font-size: 40px;
+    color: #ff45ea;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    margin-right: 14vw;
+    letter-spacing: 10px;
+}
+.names{
+    font-size: 20px;
+    color: #ff45ea;
+    font-family: Comic Sans MS;
+    /*background-color: #e3e3e3;*/
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.pics{
+    margin-top: 10px;
+}
+p{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: Comic Sans MS;
+}
+button {
+    display: block;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    background-color: #ff45ea;
+    border-width:medium;
+    border-color: black;
+    padding: 5px 10px;
+}
