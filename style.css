@@ -1,12 +1,16 @@
 body {
-    background-image: url(pics/retrowave-background.jpg);
+    background-image: url(pics/retrowave-background.gif);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1{
-    font-size: 50px;
-    color: whitesmoke;
+    font-size: 75px;
+    color: #f3115d;
     font-family: Comic Sans MS;
     font-weight: bold;
+    text-align: center;
+    /*background-color: rgba(7, 7, 7, 0.62);*/
 }
 h2{
     font-size: 30px;
@@ -16,22 +20,30 @@ h2{
 }
 .sections{
     font-size: 40px;
-    color: #ff45ea;
+    color: #f3115d;
     font-family: Comic Sans MS;
     font-weight: bold;
-    margin-right: 14vw;
     letter-spacing: 10px;
+    margin-right: 25px;
+    background-color: rgba(7, 7, 7, 0.62);
 }
 .names{
     font-size: 20px;
-    color: #ff45ea;
+    color: #f3115d;
     font-family: Comic Sans MS;
-    /*background-color: #e3e3e3;*/
     font-weight: bold;
     letter-spacing: 5px;
+    background-color: rgba(7, 7, 7, 0.62);
 }
 .pics{
     margin-top: 10px;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+tr{
+    text-align:center;
 }
 p{
     font-size: 20px;
@@ -42,7 +54,7 @@ button {
     display: block;
     font-family: Comic Sans MS;
     font-weight: bold;
-    background-color: #ff45ea;
+    background-color: #f3115d;
     border-width:medium;
     border-color: black;
     padding: 5px 10px;
